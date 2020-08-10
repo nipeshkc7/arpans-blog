@@ -1,7 +1,7 @@
 {
   "name": "Arpan eleventy blog",
   "version": "5.0.2",
-  "description": "A personal blog based on 11ty Base-blog",
+  "description": "A personal blog based on eleventy blog",
   "scripts": {
     "build": "eleventy",
     "watch": "eleventy --watch",
