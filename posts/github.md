@@ -89,3 +89,10 @@ Or
 This command copies the 'master' branch from 'origin' and the local copy will be named origin/master
 
 So git fetch basically updates local copy (in this case origin/master).
+
+### If you need to force push a sub-module/sub-repository into your own git
+
+    git rm -rf --cached path/to/submodule 
+    git add path/to/submodule/. 
+
+Source: [https://stackoverflow.com/questions/40921904/force-adding-submodule-contents-in-git](https://stackoverflow.com/questions/40921904/force-adding-submodule-contents-in-git "stackoverflow")
