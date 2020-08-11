@@ -18,5 +18,6 @@ fields:
   name: layout
   label: layout
 pages:
+- posts/express.md
 - posts/github.md
 - posts/vim.md
