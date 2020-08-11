@@ -19,5 +19,6 @@ fields:
   label: layout
 pages:
 - posts/cloud-services-gcp-aws.md
+- posts/css-html.md
 - posts/react.md
 - posts/testing.md
