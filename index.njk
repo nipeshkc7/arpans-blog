@@ -5,15 +5,15 @@ eleventyNavigation:
   order: 1
 ---
 
-<h1>Latest 3 Posts</h1>
+<h1>Latest 8 Posts</h1>
 
-{% set postslist = collections.posts | head(-3) %}
+{% set postslist = collections.posts | head(8) %}
 {% set postslistCounter = collections.posts | length %}
 {% include "postslist.njk" %}
 
 <h1>Dev Logs</h1>
 
-{% set postslist = collections.devlogs | head(-4) %}
+{% set postslist = collections.devlogs | head(-10) %}
 {% set postslistCounter = collections.devlogs | length %}
 {% include "postslist.njk" %}
 
