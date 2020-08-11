@@ -7,8 +7,6 @@ tags:
 layout: layouts/post.njk
 
 ---
-# Dev Logs
-
 This is a collection of important notes gathered throughout working on various projects and contributing to Open-Source repositories.
 
 ## Git
@@ -19,11 +17,7 @@ When you have multiple commits in a branch, you can 'squash' them into a single 
 
 1\. Use git rebase to generate a new commit, for example (if you have 2 previous commits)
 
-\`\`\`
-
     git rebase --interactive HEAD\~2
-
-\`\`\`
 
 This opens up the last 2 commits in your editor (probably vim)
 
@@ -31,11 +25,7 @@ This opens up the last 2 commits in your editor (probably vim)
 
 3\. Change commit message with the following command.
 
-\`\`\`
-
     git commit --amend
-
-\`\`\`
 
 This opens up vim again, where you can update the commit message
 
@@ -43,99 +33,58 @@ Reference: \[link\]([https://www.internalpointers.com/post/squash-commits-into-o
 
 ### Making local master exactly same as origin
 
-\`\`\`
-
-git fetch origin
-
-git reset --hard origin/master
-
-\`\`\`
+    git fetch origin
+    git reset --hard origin/master
 
 However **DO NOT** hard reset when on a separate branch. If so, do a reflog to view the commit before the 'reset', and hard reset into that commit.
 
-\`\`\`
-
-git reflog
-
-\`\`\`
+    git reflog
 
 Then find the commit hash and reset.
 
-\`\`\`
-
-git reset --hard <commit-hash> 
-
-\`\`\`
+    git reset --hard <commit-hash>
 
 Or, better way to update local master, **rebase**:
 
-\`\`\`
-
-git fetch
-
-git pull --rebase origin master
-
-\`\`\`
+    git fetch
+    git pull --rebase origin master
 
 or
 
-\`\`\`
-
-git fetch
-
-git rebase origin/master
-
-\`\`\`
+    git fetch
+    git rebase origin/master
 
 ### Git rebase vs Git merge
 
 Git rebase, carries all the commits of a feature branch and puts it infront of master when you use the commands:
 
-\`\`\`
-
-git checkout feature-branch
-
-git rebase master
-
-\`\`\`
+    git checkout feature-branch
+    git rebase master
 
 puts all the commits in the feature branch infront of master.
 
 While when you merge a master branch like so:
 
-\`\`\`
-
-git checkout feature-branch
-
-git merge master
-
-\`\`\`
+    git checkout feature-branch
+    git merge master
 
 You are adding changes from the master branch to the feature branch, and you will need a new commit for the merged changes.
 
 Keep in mind that, merge is a non-destructive command while rebase is a destructive command.
 
-More info on this \[link\](\[https\]([https://www.atlassian.com/git/tutorials/merging-vs-rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing "https://www.atlassian.com/git/tutorials/merging-vs-rebasing")))
+More info on this link([https://www.atlassian.com/git/tutorials/merging-vs-rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing "https://www.atlassian.com/git/tutorials/merging-vs-rebasing"))
 
 ### What is origin/master?
 
 origin/master is the local copy of branch 'master' on remote named 'origin'
 
-Example: 
+Example:
 
-\`\`\`
-
-git fetch origin master
-
-\`\`\`
+    git fetch origin master
 
 Or
 
-\`\`\`
-
-git fetch
-
-\`\`\`
+    git fetch
 
 This command copies the 'master' branch from 'origin' and the local copy will be named origin/master
 
