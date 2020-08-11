@@ -1,16 +1,14 @@
-
 ---
-layout: layouts/post.njk
-title: Welcome To My Personal Blog
-templateClass: tmpl-post
+title: Welcome to Dev logs
 description: Exploring the delightful world of JAMSTACK and Static site generators.
-eleventyNavigation:
-  key: dev-logs
-  order: 4
 date: 2020-08-10
+tags:
+  - devlogs
+layout: layouts/post.njk
 ---
 
 This is a series where I write about various stuff I learn from building stuff.
+
 
 ## What to expect? 
 
