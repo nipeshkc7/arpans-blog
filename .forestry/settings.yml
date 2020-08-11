@@ -8,8 +8,8 @@ sections:
   path: posts/dev-logs
   label: Dev Logs
   create: documents
-  match: "**/*.md"
-  new_doc_ext: ".md"
+  match: "**/*"
+  new_doc_ext: md
   templates:
   - testing
 - type: directory
