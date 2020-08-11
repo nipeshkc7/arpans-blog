@@ -5,8 +5,16 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: posts/dev-logs
+  label: Dev Logs
+  create: documents
+  match: "**/*.md"
+  new_doc_ext: ".md"
+  templates:
+  - testing
+- type: directory
   path: posts
-  label: Posts
+  label: All Posts
   create: all
   match: "**/*.md"
   new_doc_ext: md

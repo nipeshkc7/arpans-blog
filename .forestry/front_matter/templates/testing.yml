@@ -17,10 +17,3 @@ fields:
 - type: text
   name: layout
   label: layout
-pages:
-- posts/cloud-services-gcp-aws.md
-- posts/css-html.md
-- posts/docker.md
-- posts/react.md
-- posts/testing.md
-- posts/ubuntu.md
