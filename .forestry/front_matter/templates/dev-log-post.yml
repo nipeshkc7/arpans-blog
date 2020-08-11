@@ -19,3 +19,4 @@ fields:
   label: layout
 pages:
 - posts/github.md
+- posts/vim.md
