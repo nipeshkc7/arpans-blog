@@ -2,7 +2,8 @@
 title: DNS and Cloudflare
 description: Tips about managing DNS
 date: 2020-09-09T14:00:00Z
-tags: []
+tags:
+- devlogs
 layout: layouts/post.njk
 
 ---
