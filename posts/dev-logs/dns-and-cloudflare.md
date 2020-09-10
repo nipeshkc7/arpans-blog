@@ -23,3 +23,7 @@ Registrar will point to your nameservers and nameservers (eg Cloudflare nameserv
 ### GCP Cloud DNS
 
 * Costs money, so instead use the registrar's DNS management or Cloudflare.
+
+### Dig (DNS Lookup)
+
+* Use tools like [Dig](https://toolbox.googleapps.com/apps/dig/) for DNS lookup (see DNS servers etc)
