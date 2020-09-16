@@ -7,6 +7,8 @@ tags:
 layout: layouts/post.njk
 
 ---
+## Null checking
+
 Javascript is very flexible with regards to checking for "null" values. I'm guessing you're actually looking for empty strings, in which case this simpler code will work:
 
     if(!pass || !cpass || !email || !cemail || !user){
