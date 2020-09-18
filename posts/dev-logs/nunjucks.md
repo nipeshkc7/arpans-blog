@@ -9,6 +9,8 @@ layout: layouts/post.njk
 ---
 ### Getting started with nunjucks, nodejs and express
 
+Using [nunjucks](https://mozilla.github.io/nunjucks/) from Mozilla, you can create SSR sites very quickly.
+
 #### Index.js
 
     const express = require('express');
