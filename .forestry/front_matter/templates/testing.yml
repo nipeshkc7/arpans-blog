@@ -20,6 +20,7 @@ fields:
 pages:
 - posts/dev-logs/dns-and-cloudflare.md
 - posts/dev-logs/javascript.md
+- posts/dev-logs/nunjucks.md
 - posts/dev-logs/oauth-fb-google-twitter.md
 - posts/dev-logs/project-management.md
 - posts/oauth-2.0-with-google-api-in-node.js.md
