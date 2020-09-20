@@ -10,26 +10,23 @@ layout: layouts/post.njk
 ### Tips
 
 * When using alpine as the base image in a Dockerfile, remember you won't be able to use Debian commands like `sudo apt-install`
-* 'docker-compose up' builds and runs the app, but might need to rebuild if you've made changes to the dockerfile.
+* 'docker-compose up' builds and runs the app, but might need to rebuild if you've made changes to the `dockerfile`
 * Remember 'Docker' runs in an isolated environment and has no additional apps installed unless specified (like chromium for example).
 
 ### Common commands
 
-1. List all containers : 
+1. List all containers :
 
-    docker container ls -a
+       docker container ls -a
+2. List all volumes:
 
-2. List all volumes: 
-
-    docker volume ls
-
+       docker volume ls
 3. Clear all unused images, containers, etc
 
-    docker system prune
+       docker system prune
+4. Delete all volumes using:
 
-4. Delete all volumes using: 
-
-    docker volume rm $(docker volume ls -q)
+       docker volume rm $(docker volume ls -q)
 
 _similar for containers_
 
