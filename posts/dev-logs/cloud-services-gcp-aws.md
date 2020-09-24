@@ -1,7 +1,7 @@
 ---
 title: Cloud Services (GCP/AWS)
 description: Tips/Issues on GCP/AWS
-date: 2020-08-11T14:00:00Z
+date: 2020-08-11T14:00:00.000+00:00
 tags:
 - devlogs
 layout: layouts/post.njk
@@ -18,3 +18,13 @@ Lets you publish to a topic, and cloud pub/sub automatically pushes the message 
 ### Weird issue on GCP
 
 Trying to add environment variable 1, GCP sets it to '1' automatically.
+
+### Build once deploy many times
+
+Build and push a project to one place(eg. dockerize on a separate GCR account) and from there, you can deploy to several environments (staging or production).
+
+#### How to do this for Cloud Run Applications?
+
+Detailed guide at [https://cloud.google.com/run/docs/deploying#other-projects](https://cloud.google.com/run/docs/deploying#other-projects "https://cloud.google.com/run/docs/deploying#other-projects").
+
+* Add a new service account in the GCR project with **Storage Object Viewer** permission for an email address (something like **@serverless-robot-prod.iam.gserviceaccount.com)** obtained from the staging or prod account (wherever you want to deploy).
