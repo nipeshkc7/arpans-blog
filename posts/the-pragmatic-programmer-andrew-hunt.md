@@ -1,5 +1,5 @@
 ---
-title: The Pragmatic Programmer - Andrew Hunt
+title: The Pragmatic Programmer - Andrew Hunt and Dave Thomas
 description: Notes from the pragmatic programmer
 date: 2020-10-03T14:00:00Z
 tags:
@@ -7,7 +7,7 @@ tags:
 layout: layouts/post.njk
 
 ---
-Below I've highlighted some content from the various topics in the book which really stood out to me.
+Below are some highlights from the various topics in the book:
 
 ### Topic 3. Software Entropy:
 
