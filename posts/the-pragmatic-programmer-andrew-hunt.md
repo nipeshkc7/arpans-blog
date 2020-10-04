@@ -51,3 +51,9 @@ Unlike prototyping, which generates disposable code. Tracer code is lean but com
 If the suspect code passes its unit tests, are the tests complete enough? 
 
 ### Topic 23. Design By Contract
+
+It's important to specify what a function will do beforehand, also specifying the domain of the function and in turn, will perform a task ( Like an employee contract). Simply enumerating what the input domain range is, what the boundary conditions are, and what the routine promises to deliver - or, more importantly, what it doesn't promise to deliver - before you write code is a huge leap forward in writing better software.
+
+### Topic 24. Dead Programs Tell No Lies
+
+* No point in reraising exceptions.
