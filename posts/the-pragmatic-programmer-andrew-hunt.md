@@ -7,11 +7,11 @@ tags:
 layout: layouts/post.njk
 
 ---
-## The Pragmatic programmer
+Below I've highlighted some content from the various topics in the book which really stood out to me.
 
 ### Topic 3. Software Entropy:
 
-"Broken window theory": The point where everything in a building starts deteriorating is a broken window.
+_"Broken window theory"_: The point where everything in a building starts deteriorating is a broken window.
 
 ### Topic 5. Good-Enough Software
 
@@ -21,4 +21,33 @@ Surprisingly, many users would rather use software with some rough edges today, 
 
 You may need to spend a week or so deliberately asking yourself "did the thing I just did make the overall system easier or harder to change?" Do it when you save a file. Do it when you write a test. Do It when you fix a bug.
 
-### 
+### Topic 9. DRY- The Evils of Duplication
+
+DRY is about the duplication of knowledge, of intent. It's about expressing the same thing in two different places, possibly in two different ways. 
+
+Here's an acid test: when some single facet of the code has to change, do you find yourself making the change in multiple places, and in multiple different formats? Do you have to change code and documentation, or a database schema and a structure that holds it, or...? If so, your code isn't DRY.
+
+### Topic 10. Orthogonality
+
+* In a well-designed system, the database code will be orthogonal to the user interface: you can change the interface without changing the interface.
+* _Don't rely on the properties of things you can't control._
+* Writing unit tests is itself an interesting test of orthogonality.
+* Bug fixing is also a good time to assess the orthogonality of the system as a whole. When you come across a problem, assess how localized the fix is. Do you change just one module, or are the changes scattered?
+
+### Topic 11. Reversibility
+
+The mistake lies in assuming that any decision is cast in stone - and in not preparing for the contingencies that might arise. Instead of carving decisions in stone, think of them more as being written in the sand at the beach. A big wave can come along and wipe them out at any time.
+
+### Topic 12. Tracer Bullets
+
+Unlike prototyping, which generates disposable code. Tracer code is lean but complete and forms part of the skeleton of the final system. 
+
+### Topic 13. Domain Languages
+
+* Give them code that runs, and they can play with it. That's where the real needs will surface.
+
+### Topic 20. Debugging
+
+If the suspect code passes its unit tests, are the tests complete enough? 
+
+### Topic 23. Design By Contract
