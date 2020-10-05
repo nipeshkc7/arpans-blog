@@ -25,6 +25,6 @@ Keep in mind, node-mysql flattens the arrays so you can pass in nested arrays as
 
 ### Data Types
 
-* Use decimal for financial/precise data, floats are not appropriate as they won't store precise data.
+* Use **decimals** for financial/precise data, floats are not appropriate as they won't store precise data.
 
   _`Usage:`_ `DECIMAL(6,2)` , where you can use 6 total digits, with 2 decimal places of precision. i.e from range 9999.99 to -9999.99.
