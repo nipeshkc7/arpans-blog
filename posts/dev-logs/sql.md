@@ -19,7 +19,7 @@ So always sanitize the user inputs;
 
 ### Node Mysql
 
-You can passing in query params into a nunjucks template like done here: [https://gist.github.com/nipeshkc7/6b1efd7810c653101edb28f64af8b00a](https://gist.github.com/nipeshkc7/6b1efd7810c653101edb28f64af8b00a "https://gist.github.com/nipeshkc7/6b1efd7810c653101edb28f64af8b00a")
+You can passing in query params into a nunjucks template like done here: <Example>
 
 Keep in mind, node-mysql flattens the arrays so you can pass in nested arrays as well.
 
