@@ -28,3 +28,9 @@ Example:
     gcloud run deploy ohc-app-staging --image gcr.io/ohc-guide-gcr/ohc-app:restrict-date-range --region us-central1 --platform manage
 
 The `---region` and `--platform` arguments are optional.
+
+#### List Images in the Container registry
+
+    glcoud container images list --repository gcr.io/<project-id>
+
+`--repository` parameter is optional, only use it if you want to list images from a different container repository.
