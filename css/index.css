@@ -38,7 +38,7 @@ a[href]:visited {
   color: var(--navy);
 }
 main {
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
 }
 main :first-child {
   margin-top: 0;
