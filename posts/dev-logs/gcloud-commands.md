@@ -25,7 +25,7 @@ To deploy your Cloud Run service the format is :
 
 Example:
 
-    gcloud run deploy ohc-app-staging --image gcr.io/ohc-guide-gcr/ohc-app:restrict-date-range --region us-central1 --platform manage
+    gcloud run deploy ohc-app-staging --image gcr.io/ohc-guide-gcr/ohc-app:restrict-date-range --region us-central1 --platform managed
 
 The `---region` and `--platform` arguments are optional.
 
