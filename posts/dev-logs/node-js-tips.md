@@ -9,9 +9,14 @@ layout: layouts/post.njk
 ---
 ### Debugging in Node.js
 
-You can debug from the command line using: 
+You can debug from the command line using:
 
     node inspect index.js
+
+#### Helpful commands with command line debugger:
+
+* `s` : step to next line
+* `sb()`: set breakpoint, takes line number as parameter
 
 Or, to debug using a different client like chrome browser use:
 
