@@ -17,4 +17,12 @@ Sometimes ubuntu won't let you install packages, with error 'EACESS no permissio
 
 Use the `nohup` command to run processes in the background. For example:
 
-    $ nohup node index.js
+    $ nohup node index.js &
+
+To verify the process is indeed running:
+
+    $ ps xw
+
+To terminate the process:
+
+    
