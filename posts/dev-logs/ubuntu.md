@@ -1,5 +1,5 @@
 ---
-title: Ubuntu
+title: Linux/Ubuntu
 description: Ubuntu tips
 date: 2020-08-11T14:00:00.000+00:00
 tags:
