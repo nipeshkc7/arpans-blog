@@ -25,4 +25,4 @@ To verify the process is indeed running:
 
 To terminate the process:
 
-    
+    kill <PID>
