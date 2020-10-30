@@ -17,7 +17,7 @@ Lets you publish to a topic, and cloud pub/sub automatically pushes the message 
 
 #### cloud-builds pubsub topic:
 
-Cloud build notifications are by default sent to `cloud-builds` topic, which you can create. And you can use the `cloud-builds` topic to trigger cloud function invocations for stuff like slack notifications.
+Cloud build notifications are by default sent to `cloud-builds` topic, which you can create. And you can use the `cloud-builds` topic to trigger cloud function invocations for stuff like [slack notifications](https://gist.github.com/nipeshkc7/37e70e104c658b1d5b331ccd85cc1775).
 
 ### Weird issue on GCP
 
