@@ -15,6 +15,10 @@ Cloud Run lets you run stateless containers that scale up very nicely. You don't
 
 Lets you publish to a topic, and cloud pub/sub automatically pushes the message to all the subscribers(client apps in most cases). The advantage is, it lets you set up any number of subscribers to a single event.
 
+#### cloud-builds pubsub topic:
+
+Cloud build notifications are by default sent to `cloud-builds` topic, which you can create. And you can use the `cloud-builds` topic to trigger cloud function invocations for stuff like slack notifications.
+
 ### Weird issue on GCP
 
 Trying to add environment variable 1, GCP sets it to '1' automatically.
