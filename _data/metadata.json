@@ -1,5 +1,5 @@
 {
-  "title": "Watch me struggle",
+  "title": "Arpan's Blog",
   "url": "https://blog.arpankc.com/",
   "description": "Welcome to My Blog, Built with <3 and 11ty",
   "feed": {
@@ -14,7 +14,7 @@
   },
   "author": {
     "name": "Arpan KC",
-    "email": "nipeshkc7@gmail.com",
+    "email": "arpnkc@gmail.com",
     "url": "https://blog.arpankc.com/about-me/"
   }
 }

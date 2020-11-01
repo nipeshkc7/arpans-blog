@@ -7,9 +7,11 @@ eleventyNavigation:
   order: 3
 ---
 
-Full Stack Developer Passionate about working with Web Technologies and building high quality software.
+<img src="/img/arpankc.png" alt="arpan-kc-picture" style="width:20em;border-radius:15px;margin-bottom:1em;">
 
-Here's links to my social accounts.
+I'm Arpan, a Full Stack Developer passionate about working with Web Technologies and building high quality software. Experienced in Node.js, React and Vue.js and cloud services including GCP and AWS. 
+
+You can follow me via:
 
 * [GitHub](https://github.com/nipeshkc7)
 * [Linked-in](https://www.linkedin.com/in/arpan-kc7/)

@@ -1,0 +1,50 @@
+.postlist-item{
+  padding-bottom: 0.2em;
+}
+
+.postlist-link {
+  color: black;
+  font-size: 1.1em;
+  padding: 1em;
+}
+
+.postlist-date {
+  color: grey;
+  font-size: 0.8em;
+}
+
+ul{
+  list-style:none;
+}
+
+ul.postlist li:before {
+  content: "\00BB";
+}
+
+.side-bar-items{
+  padding:0.5em;
+  padding-left:0;
+  border-bottom:1px solid lightgrey;
+}
+
+.side-bar-items a {
+  color: darkslategrey;
+  text-transform: capitalize;
+}
+
+.topics, .social {
+  font-size: 1.2em;
+  font-weight: bolder;
+}
+
+.social-icons {
+  margin-top: 1em;
+}
+.social-icons a{
+  color: blueviolet;
+  padding-right: 0.5em;
+}
+
+i {
+  font-size: 2em;
+}
