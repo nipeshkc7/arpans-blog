@@ -1,6 +1,11 @@
+.postlist-item{
+  padding-bottom: 0.2em;
+}
+
 .postlist-link {
   color: black;
   font-size: 1.1em;
+  padding: 1em;
 }
 
 .postlist-date {
@@ -14,4 +19,20 @@ ul{
 
 ul.postlist li:before {
   content: "\00BB";
+}
+
+.side-bar-items{
+  padding:0.5em;
+  padding-left:0;
+  border-bottom:1px solid lightgrey;
+}
+
+.side-bar-items a {
+  color: darkslategrey;
+  text-transform: capitalize;
+}
+
+.topics {
+  font-size: 1.2em;
+  font-weight: bolder;
 }

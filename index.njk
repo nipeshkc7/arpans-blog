@@ -1,20 +1,33 @@
 ---
 layout: layouts/home.njk
 eleventyNavigation:
-  key: Home
-  order: 1
+key: Home
+order: 1
 ---
 
-<h2>🚀 Latest Posts </h2>
+<div class="row">
+  <div class="col-sm-9">
+    <h2>🚀 Latest Posts </h2>
 
-{% set postslist = collections.posts | head(8) %}
-{% set postslistCounter = collections.posts | length %}
-{% include "postslist.njk" %}
+    {% set postslist = collections.posts | head(8) %}
+    {% set postslistCounter = collections.posts | length %}
+    {% include "postslist.njk" %}
 
-<h2>💻 Dev Logs</h2>
+    <h2>💻 Dev Logs</h2>
 
-{% set postslist = collections.devlogs | head(-10) %}
-{% set postslistCounter = collections.devlogs | length %}
-{% include "postslist.njk" %}
+    {% set postslist = collections.devlogs | head(-10) %}
+    {% set postslistCounter = collections.devlogs | length %}
+    {% include "postslist.njk" %}
 
-<p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>
+    <p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>
+  </div>
+  <div class="col-sm-3 side-bar">
+    <ul class="side-bar-list">
+      <h4 class="topics">Topics</h4>
+      {% for tag in collections.tagList %}
+        {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+        <li class="side-bar-items"><a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
