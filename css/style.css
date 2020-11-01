@@ -32,7 +32,19 @@ ul.postlist li:before {
   text-transform: capitalize;
 }
 
-.topics {
+.topics, .social {
   font-size: 1.2em;
   font-weight: bolder;
+}
+
+.social-icons {
+  margin-top: 1em;
+}
+.social-icons a{
+  color: blueviolet;
+  padding-right: 0.5em;
+}
+
+i {
+  font-size: 2em;
 }
