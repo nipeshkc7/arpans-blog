@@ -41,10 +41,32 @@ ul.postlist li:before {
   margin-top: 1em;
 }
 .social-icons a{
-  color: blueviolet;
+  color: #82517E;
   padding-right: 0.5em;
+}
+
+.social-icons a:hover{
+  color: grey;
 }
 
 i {
   font-size: 2em;
+}
+
+a.post-tag.badge-danger.devlogs {
+  background-color: #8A35E2 !important;
+}
+
+.post-tag.interviews {
+  background-color: blue !important;
+}
+
+
+a.post-tag.bookclub {
+  background-color: #18A2B8 !important;
+}
+
+
+a.post-tag.misc {
+  background-color: #6BBA50 !important;
 }
