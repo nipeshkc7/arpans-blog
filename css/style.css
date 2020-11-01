@@ -21,6 +21,10 @@ ul.postlist li:before {
   content: "\00BB";
 }
 
+.side-bar-list{
+  padding-inline-start:0;
+}
+
 .side-bar-items{
   padding:0.5em;
   padding-left:0;
@@ -60,7 +64,6 @@ a.post-tag.badge-danger.devlogs {
 .post-tag.interviews {
   background-color: blue !important;
 }
-
 
 a.post-tag.bookclub {
   background-color: #18A2B8 !important;

@@ -12,7 +12,7 @@ order: 1
     {% set postslist = collections.posts | head(8) %}
     {% set postslistCounter = collections.posts | length %}
     {% include "postslist.njk" %}
-
+    <hr/>
     <h2>💻 Dev Logs</h2>
 
     {% set postslist = collections.devlogs | head(-10) %}
@@ -22,16 +22,16 @@ order: 1
     <p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>
   </div>
   <div class="col-sm-3 side-bar">
+    <h4 class="topics">Topics</h4>
     <ul class="side-bar-list">
-      <h4 class="topics">Topics</h4>
       {% for tag in collections.tagList %}
         {% set tagUrl %}/tags/{{ tag }}/{% endset %}
         <li class="side-bar-items"><a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a></li>
       {% endfor %}
     </ul>
     <br/>
+    <h4 class="social">Social Links</h4>
     <ul class="side-bar-list">
-      <h4 class="social">Social Links</h4>
       <div class="social-icons">
         <a href="https://www.linkedin.com/in/arpan-kc7/" target="_blank">
           <i class="fab fa-linkedin-in"></i>
