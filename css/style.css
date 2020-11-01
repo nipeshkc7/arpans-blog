@@ -1,0 +1,17 @@
+.postlist-link {
+  color: black;
+  font-size: 1.1em;
+}
+
+.postlist-date {
+  color: grey;
+  font-size: 0.8em;
+}
+
+ul{
+  list-style:none;
+}
+
+ul.postlist li:before {
+  content: "\00BB";
+}

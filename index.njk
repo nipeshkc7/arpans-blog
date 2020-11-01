@@ -5,13 +5,13 @@ eleventyNavigation:
   order: 1
 ---
 
-<h1>Latest 8 Posts</h1>
+<h2>🚀 Latest Posts </h2>
 
 {% set postslist = collections.posts | head(8) %}
 {% set postslistCounter = collections.posts | length %}
 {% include "postslist.njk" %}
 
-<h1>Dev Logs</h1>
+<h2>💻 Dev Logs</h2>
 
 {% set postslist = collections.devlogs | head(-10) %}
 {% set postslistCounter = collections.devlogs | length %}
