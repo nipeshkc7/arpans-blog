@@ -21,6 +21,10 @@ ul.postlist li:before {
   content: "\00BB";
 }
 
+ul.postlist {
+  padding-inline-start:1em;
+}
+
 .side-bar-list{
   padding-inline-start:0;
 }

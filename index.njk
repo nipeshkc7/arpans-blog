@@ -26,7 +26,7 @@ order: 1
     <ul class="side-bar-list">
       {% for tag in collections.tagList %}
         {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-        <li class="side-bar-items"><a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a></li>
+        <li class="side-bar-items"><a href="{{ tagUrl | url }}" class="post-tag">{{ tag }} </a>&nbsp;<span class="badge badge-secondary">{{ collections[tag] | length }}</span></li>
       {% endfor %}
     </ul>
     <br/>
