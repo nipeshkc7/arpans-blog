@@ -1,12 +1,14 @@
 ---
 title: Node JS Tips
 description: Tips about Node.js
-date: 2020-10-22T13:00:00Z
+date: 2020-10-22T13:00:00.000+00:00
 tags:
 - devlogs
 layout: layouts/post.njk
 
 ---
+Below are some helpful tips and tricks, useful when it comes to server-side JS.
+
 ### Debugging in Node.js
 
 You can debug from the command line using:
