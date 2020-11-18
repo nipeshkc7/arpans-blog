@@ -1,15 +1,18 @@
 ---
 title: Vim
 description: Adventures in VIM
-date: 2020-08-10T14:00:00Z
+date: 2020-08-10T14:00:00.000+00:00
 tags:
 - devlogs
 layout: layouts/post.njk
 
 ---
-### Keys
+Some Vim tips to get you up and running using VIM.
+
+### Basic Keys
 
 * **i** : Press 'i' to start inserting text
+* **j, k, l, ;**  Movement Keys (Down, Up, Right, Left) 
 * **ESC** : Escape text-inserting mode
 * **:x** : Save and quit
 
