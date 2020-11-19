@@ -27,12 +27,11 @@ Use Cors to allow cross origin request.
 
 ### Express Best practices:
 
-#### Resources:
-
 * Use process managers like PM2.
 * Use load balancers.
 * Use clustering to launch a cluster of processes.
 * Avoid synchronous functions if possible.
 
+#### Resources
 
 * [https://expressjs.com/en/advanced/best-practice-performance.html#ensure-your-app-automatically-restarts](https://expressjs.com/en/advanced/best-practice-performance.html#ensure-your-app-automatically-restarts "https://expressjs.com/en/advanced/best-practice-performance.html#ensure-your-app-automatically-restarts")
