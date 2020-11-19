@@ -32,6 +32,7 @@ Use Cors to allow cross origin request.
 * Use process managers like PM2.
 * Use load balancers.
 * Use clustering to launch a cluster of processes.
+* Avoid synchronous functions if possible.
 
 
 * [https://expressjs.com/en/advanced/best-practice-performance.html#ensure-your-app-automatically-restarts](https://expressjs.com/en/advanced/best-practice-performance.html#ensure-your-app-automatically-restarts "https://expressjs.com/en/advanced/best-practice-performance.html#ensure-your-app-automatically-restarts")
