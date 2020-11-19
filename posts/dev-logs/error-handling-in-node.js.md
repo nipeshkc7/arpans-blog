@@ -9,7 +9,7 @@ layout: layouts/post.njk
 ---
 ### Checklist for Robust Error Handling
 
-Here's a checklist to ensure that errors don't go undetected in your Node.js application: 
+Here's a checklist to ensure that errors don't go undetected in your Node.js application:
 
 * Make sure for every **throw,** there is a catch mechanism in place.
 * For error first callbacks, always check **error** is null.
