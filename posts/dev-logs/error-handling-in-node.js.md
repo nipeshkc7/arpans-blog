@@ -43,3 +43,8 @@ The following code snippet will help you in detecting uncaught exceptions in pro
         })
       })
     }
+
+#### Some Helpful links
+
+* [https://www.joyent.com/node-js/production/design/errors#fnref:1](https://www.joyent.com/node-js/production/design/errors#fnref:1 "https://www.joyent.com/node-js/production/design/errors#fnref:1")
+* [https://strongloop.com/strongblog/robust-node-applications-error-handling/](https://strongloop.com/strongblog/robust-node-applications-error-handling/ "https://strongloop.com/strongblog/robust-node-applications-error-handling/")
