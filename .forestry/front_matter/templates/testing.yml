@@ -19,6 +19,7 @@ fields:
   label: layout
 pages:
 - posts/dev-logs/dns-and-cloudflare.md
+- posts/dev-logs/error-handling-in-node.js.md
 - posts/dev-logs/gcloud-commands.md
 - posts/dev-logs/javascript.md
 - posts/dev-logs/node-js-tips.md
