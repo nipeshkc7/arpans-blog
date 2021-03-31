@@ -1,7 +1,7 @@
 ---
 title: Github
 description: Important notes about github
-date: 2020-08-10T14:00:00Z
+date: 2020-08-10T14:00:00.000+00:00
 tags:
 - devlogs
 layout: layouts/post.njk
@@ -96,3 +96,7 @@ So git fetch basically updates local copy (in this case origin/master).
     git add path/to/submodule/. 
 
 Source: [https://stackoverflow.com/questions/40921904/force-adding-submodule-contents-in-git](https://stackoverflow.com/questions/40921904/force-adding-submodule-contents-in-git "stackoverflow")
+
+### Switching to a remote branch
+
+    git switch <remote_branch>
