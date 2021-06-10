@@ -7,6 +7,8 @@ tags:
 layout: layouts/post.njk
 
 ---
+# Google Cloud
+
 ### Cloud Run
 
 Cloud Run lets you run stateless containers that scale up very nicely. You don't have to pay anything until you start getting millions of requests. However, CloudSQL does cost money from the start, (its a way of introducing states in the app)
