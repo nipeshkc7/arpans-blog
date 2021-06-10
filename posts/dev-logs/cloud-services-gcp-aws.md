@@ -34,3 +34,11 @@ Build and push a project to one place(eg. dockerize on a separate GCR account) a
 Detailed guide at [https://cloud.google.com/run/docs/deploying#other-projects](https://cloud.google.com/run/docs/deploying#other-projects "https://cloud.google.com/run/docs/deploying#other-projects").
 
 * Add a new service account in the GCR project with **Storage Object Viewer** permission for an email address (something like **@serverless-robot-prod.iam.gserviceaccount.com)** obtained from the staging or prod account (wherever you want to deploy).
+
+# Azure Platform
+
+Types of services offered by Azure:
+
+* Compute (App Service, Service Fabric, Container deployment/k8s)
+* Messaging (Pub/sub type messaging, async messaging)
+* Data Store (Azure storage, CosmosDB/NoSQL, AzureSQL/SQL)
