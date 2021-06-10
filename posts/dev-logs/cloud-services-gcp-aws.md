@@ -7,7 +7,7 @@ tags:
 layout: layouts/post.njk
 
 ---
-# Google Cloud
+# Google Cloud Platform
 
 ### Cloud Run
 
