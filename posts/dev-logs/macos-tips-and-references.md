@@ -19,4 +19,8 @@ To install:
 
 In some cases, `brew` command is not available in the shell. To fix this, use the command:
 
-    export PATH=/opt/homebrew/bin:$PATH
+    export PATH=/opt/homebrew/bin:$PATH		
+
+##### References
+
+* [https://stackoverflow.com/questions/36657321/after-installing-brew-i-get-command-not-found-brew/36805293](https://stackoverflow.com/questions/36657321/after-installing-brew-i-get-command-not-found-brew/36805293 "https://stackoverflow.com/questions/36657321/after-installing-brew-i-get-command-not-found-brew/36805293")
