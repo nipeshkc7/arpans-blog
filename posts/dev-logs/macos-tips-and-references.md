@@ -21,6 +21,12 @@ In some cases, `brew` command is not available in the shell. To fix this, use th
 
     export PATH=/opt/homebrew/bin:$PATH		
 
+### Default Paths for M1 Mac
+
+M1 macs use the `zsh` shell by default so all the environment path will be configured inside `~/.zshrc`, To update the folder use command:
+
+    sudo vi ~/.zshrc
+
 ##### References
 
 * [https://stackoverflow.com/questions/36657321/after-installing-brew-i-get-command-not-found-brew/36805293](https://stackoverflow.com/questions/36657321/after-installing-brew-i-get-command-not-found-brew/36805293 "https://stackoverflow.com/questions/36657321/after-installing-brew-i-get-command-not-found-brew/36805293")
