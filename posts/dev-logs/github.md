@@ -1,5 +1,5 @@
 ---
-title: Github
+title: Git
 description: Important notes about github
 date: 2020-08-10T14:00:00.000+00:00
 tags:
@@ -17,7 +17,7 @@ When you have multiple commits in a branch, you can 'squash' them into a single 
 
 1\. Use git rebase to generate a new commit, for example (if you have 2 previous commits)
 
-    git rebase --interactive HEAD\~2
+    git rebase --interactive HEAD~2
 
 This opens up the last 2 commits in your editor (probably vim)
 
