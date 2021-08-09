@@ -19,6 +19,7 @@ fields:
   label: layout
 pages:
 - posts/creating-a-restful-api-with-golang.md
+- posts/dev-logs/bash-and-tmux.md
 - posts/dev-logs/dns-and-cloudflare.md
 - posts/dev-logs/error-handling-in-node.js.md
 - posts/dev-logs/gcloud-commands.md
