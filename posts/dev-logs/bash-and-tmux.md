@@ -21,3 +21,9 @@ Tmux, in simple terms is a Terminal Multiplexer. It has the following benefits:
 * Allows window split functionality
 
 Tmux Guide: [https://www.barbarianmeetscoding.com/blog/jaimes-guide-to-tmux-the-most-awesome-tool-you-didnt-know-you-needed](https://www.barbarianmeetscoding.com/blog/jaimes-guide-to-tmux-the-most-awesome-tool-you-didnt-know-you-needed "https://www.barbarianmeetscoding.com/blog/jaimes-guide-to-tmux-the-most-awesome-tool-you-didnt-know-you-needed")
+
+#### Tmux tips
+
+Set mouse mode on: 
+
+    $ set -g mouse on
