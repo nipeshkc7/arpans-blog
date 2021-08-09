@@ -20,10 +20,13 @@ Tmux, in simple terms is a Terminal Multiplexer. It has the following benefits:
 * Can save and navigate between different sessions, example: opensource-session, work-session.
 * Allows window split functionality
 
-Tmux Guide: [https://www.barbarianmeetscoding.com/blog/jaimes-guide-to-tmux-the-most-awesome-tool-you-didnt-know-you-needed](https://www.barbarianmeetscoding.com/blog/jaimes-guide-to-tmux-the-most-awesome-tool-you-didnt-know-you-needed "https://www.barbarianmeetscoding.com/blog/jaimes-guide-to-tmux-the-most-awesome-tool-you-didnt-know-you-needed")
+#### Tmux Resources
+
+*  [https://www.barbarianmeetscoding.com/blog/jaimes-guide-to-tmux-the-most-awesome-tool-you-didnt-know-you-needed](https://www.barbarianmeetscoding.com/blog/jaimes-guide-to-tmux-the-most-awesome-tool-you-didnt-know-you-needed "https://www.barbarianmeetscoding.com/blog/jaimes-guide-to-tmux-the-most-awesome-tool-you-didnt-know-you-needed")
+* [https://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/](https://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/ "https://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/")
 
 #### Tmux tips
 
-Set mouse mode on: 
+* Set mouse mode on: 
 
     $ set -g mouse on
