@@ -11,5 +11,5 @@ Rust \[[https://doc.rust-lang.org/rust-by-example/index.html](https://doc.rust-l
 
 Some Rust concepts:
 
-* Ownership:  
+* **Ownership:**  
   A variable if passed on to a function will go out of scope for that scope and will be transferred to the called function. In other words, the **ownership** of the variable is transferred to a different function.
