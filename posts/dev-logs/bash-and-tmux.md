@@ -12,6 +12,10 @@ layout: layouts/post.njk
 * Use alias for shortcut commands
 
       $ alias gs="git status"
+* Update `.bashrc` and update it as the source.
+
+    $ vi ~/.bashrc
+    $ source ~/.bashrc
 
 ### Tmux
 
@@ -22,11 +26,11 @@ Tmux, in simple terms is a Terminal Multiplexer. It has the following benefits:
 
 #### Tmux Resources
 
-*  [https://www.barbarianmeetscoding.com/blog/jaimes-guide-to-tmux-the-most-awesome-tool-you-didnt-know-you-needed](https://www.barbarianmeetscoding.com/blog/jaimes-guide-to-tmux-the-most-awesome-tool-you-didnt-know-you-needed "https://www.barbarianmeetscoding.com/blog/jaimes-guide-to-tmux-the-most-awesome-tool-you-didnt-know-you-needed")
+* [https://www.barbarianmeetscoding.com/blog/jaimes-guide-to-tmux-the-most-awesome-tool-you-didnt-know-you-needed](https://www.barbarianmeetscoding.com/blog/jaimes-guide-to-tmux-the-most-awesome-tool-you-didnt-know-you-needed "https://www.barbarianmeetscoding.com/blog/jaimes-guide-to-tmux-the-most-awesome-tool-you-didnt-know-you-needed")
 * [https://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/](https://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/ "https://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/")
 
 #### Tmux tips
 
-* Set mouse mode on: 
+* Set mouse mode on:
 
-    $ set -g mouse on
+  $ set -g mouse on
