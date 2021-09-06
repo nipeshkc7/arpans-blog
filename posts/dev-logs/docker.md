@@ -35,3 +35,7 @@ _similar for containers_
 Dockerfile specifies the actual image whereas docker-compose will help run multiple docker images using `docker-compose up`
 
 Alternatively, you can run the docker image directly by using something like `docker run --publish 8080:8080 <container-id>`
+
+### Use alpine where possible
+
+Alpine ( [https://hub.docker.com/_/alpine](https://hub.docker.com/_/alpine "https://hub.docker.com/_/alpine") ) is a tiny Linux distribution ideal for dockerizing/productionizing your applications.  
