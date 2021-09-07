@@ -27,7 +27,7 @@ Use Cors to allow cross origin request.
 
 ### Express Best practices:
 
-* Use process managers like PM2.
+* Use process managers like PM2, which has clustering built in.
 * Use load balancers.
 * Use clustering to launch a cluster of processes.
 * Avoid synchronous functions if possible.
