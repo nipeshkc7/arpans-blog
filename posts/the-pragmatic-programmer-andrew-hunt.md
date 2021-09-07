@@ -1,7 +1,7 @@
 ---
 title: The Pragmatic Programmer - Andrew Hunt and Dave Thomas
 description: Notes from the pragmatic programmer
-date: 2020-10-03T14:00:00Z
+date: 2020-10-03T14:00:00.000+00:00
 tags:
 - bookclub
 layout: layouts/post.njk
@@ -11,7 +11,7 @@ Below are some highlights from the various topics in the book:
 
 ### Topic 3. Software Entropy:
 
-_"Broken window theory"_: The point where everything in a building starts deteriorating is a broken window.
+_"Broken window theory"_: The point where everything in a building starts deteriorating is a broken window. So if you see a broken window (in our case, code smells), fix it immediately. 
 
 ### Topic 5. Good-Enough Software
 
@@ -23,7 +23,7 @@ You may need to spend a week or so deliberately asking yourself "did the thing I
 
 ### Topic 9. DRY- The Evils of Duplication
 
-DRY is about the duplication of knowledge, of intent. It's about expressing the same thing in two different places, possibly in two different ways. 
+DRY is about the duplication of knowledge, of intent. It's about expressing the same thing in two different places, possibly in two different ways.
 
 Here's an acid test: when some single facet of the code has to change, do you find yourself making the change in multiple places, and in multiple different formats? Do you have to change code and documentation, or a database schema and a structure that holds it, or...? If so, your code isn't DRY.
 
@@ -40,7 +40,7 @@ The mistake lies in assuming that any decision is cast in stone - and in not pre
 
 ### Topic 12. Tracer Bullets
 
-Unlike prototyping, which generates disposable code. Tracer code is lean but complete and forms part of the skeleton of the final system. 
+Unlike prototyping, which generates disposable code. Tracer code is lean but complete and forms part of the skeleton of the final system.
 
 ### Topic 13. Domain Languages
 
@@ -48,7 +48,7 @@ Unlike prototyping, which generates disposable code. Tracer code is lean but com
 
 ### Topic 20. Debugging
 
-If the suspect code passes its unit tests, are the tests complete enough? 
+If the suspect code passes its unit tests, are the tests complete enough?
 
 ### Topic 23. Design By Contract
 
