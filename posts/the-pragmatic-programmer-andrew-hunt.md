@@ -7,7 +7,7 @@ tags:
 layout: layouts/post.njk
 
 ---
-Below are some highlights from the various topics in the book:
+These are some of the important topics and highlights that stood out to me from `The Pragmatic Programmer`
 
 ### Topic 3. Software Entropy:
 
