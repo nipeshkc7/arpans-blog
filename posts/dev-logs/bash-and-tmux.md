@@ -14,8 +14,8 @@ layout: layouts/post.njk
       $ alias gs="git status"
 * Update `.bashrc` and update it as the source.
 
-    $ vi ~/.bashrc
-    $ source ~/.bashrc
+  $ vi \~/.bashrc
+  $ source \~/.bashrc
 
 ### Tmux
 
@@ -33,4 +33,4 @@ Tmux, in simple terms is a Terminal Multiplexer. It has the following benefits:
 
 * Set mouse mode on:
 
-  $ set -g mouse on
+      $ set -g mouse on
